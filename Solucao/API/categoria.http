@@ -1,0 +1,12 @@
+http://localhost:5073
+
+### Categoria Listar
+GET: http://localhost:5073/api/categoria/listar
+
+### Categoria cadastrar
+POST: http://localhost:5073/api/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Pessoal"
+}
